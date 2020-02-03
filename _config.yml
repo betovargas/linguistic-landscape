@@ -1,12 +1,12 @@
 # Site wide configuration
 
-title: "Latinx Literature and Culture"
-description: Cultural imagination in Latinx communities.
+title: "Linguistic Landscape"
+description: 
 logo: # 120x120 px default image used for Twitter summary card
 teaser: tv.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
-url: http://ds.swarthmore.edu/latinx-lit
-# url: 
+#url: http://ds.swarthmore.edu/latinx-lit
+url: 
 feed:
   path: atom.xml
 

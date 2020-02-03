@@ -3,7 +3,7 @@ layout: front
 permalink: /
 title: home
 image:
-    banner: images/torres-el-pez.jpg
+    banner: images/linguistic-landscape.jpg
 ---
 ### Fall of 2019
 
