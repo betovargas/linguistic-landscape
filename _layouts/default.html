@@ -10,7 +10,7 @@
     {% endif %}
     {% include open-graph.html %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <!--link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}"-->
 
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -20,7 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
-    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ './css/main.css' | relative_url }}">
     
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
