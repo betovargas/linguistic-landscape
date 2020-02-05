@@ -5,10 +5,10 @@ description:
 logo: # 120x120 px default image used for Twitter summary card
 teaser: tv.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
-url: https://ds-pages.swarthmore.edu
-baseurl: linguistic-landscape
+#url: https://ds-pages.swarthmore.edu
+baseurl: https://ds-pages.swarthmore.edu/linguistic-landscape
 feed:
-  path: atom.xml
+  path: atom.xm
 
 # Jekyll configuration
 
