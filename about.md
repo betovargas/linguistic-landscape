@@ -6,9 +6,8 @@ image:
     banner: ../images/torres-el-pez.jpg
 ---
 
-![group photo of class](../images/class.jpg)
 
-*Introduction to Latinx Literature and Culture Seminar, 2017*
+*Linguistic Landscape*
 
 
 <hr/>
