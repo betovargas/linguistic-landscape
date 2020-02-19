@@ -40,9 +40,11 @@
       {% include footer.html %}
     </div>
 
-    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="{{ site.url }}/js/main.js"></script>
+    <script src="{{"js/vendor/jquery-1.9.1.min.js" | relative_url}}"></script>
+    <script src="{{"js/main.js" | relative_url}}"></script>
 
   </body>
 
 </html>
+
+<link rel="stylesheet" href="{{"css/main.css" | relative_url}}" type="text/css">

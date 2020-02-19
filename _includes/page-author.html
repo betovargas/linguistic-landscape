@@ -3,17 +3,13 @@
 {% endif %}
 
 {% if author.avatar %}
-
-    {% assign avatar = author.avatar %}
-
+  {% assign avatar = author.avatar %}
 {% else %}
-
-    {% assign avatar = site.placeholder_img %}
-
+  {% assign avatar = site.placeholder_img %}
 {% endif %}
 
 <div class="author-image">
-	<img src="{{"images" | relative_url}}"/{{ avatar }}" alt="{{ author.name }}">
+	<img src="{{"images" | relative_url}}/{{ avatar }}" alt="{{ author.name }}">
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >{{ site.data.messages.locales[site.locale].written_by }} {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
