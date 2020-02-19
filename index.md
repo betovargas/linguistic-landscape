@@ -5,18 +5,11 @@ title: home
 image:
     banner: images/linguistic-landscape.jpg
 ---
-### Fall of 2019
 
 <div class="tiles">
-{% for member in site.data.members %}
-   {% if member.year == 2019 %}
-   {% include post-grid.html %}
-   {% endif %}
+
+{% for post in site.posts %}
+{% include post-grid.html %}
 {% endfor %}
+
 </div>
-<hr/>
-
-
-Linguistic landscape project
-
-<hr/>
