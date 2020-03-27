@@ -1,5 +1,5 @@
 ---
-title: "South Philly's Indonesian Corner Merkets"
+title: "South Philly's Indonesian Corner Markets"
 layout: article
 author: 
 image_teaser: indonesian.jpg
